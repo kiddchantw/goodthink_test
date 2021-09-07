@@ -33,7 +33,6 @@ class ReccaTest extends Controller
         }
 
         return  collect($array_data)->map(function($item,$key){
-            dump(pow($item,$item));
             return pow($item,$item);
         })->sum();
     }
