@@ -11,3 +11,8 @@ Q2:連加，輸入 10 ，回傳 1 +2 +3 …..+10
 Q3:平方連加，輸入10 ，回傳 1平方 + 2 平方+ 3 平方….+10平方
 
 Q4:階乘，輸入 10 ，回傳 1 * 2 * 3 * 4 ….. * 10
+
+
+# 參考資料
+判斷 assert的寫法 
+https://phpunit.readthedocs.io/en/latest/assertions.html#

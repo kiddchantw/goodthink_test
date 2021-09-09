@@ -9,6 +9,11 @@ class ReccaTest extends Controller
     //
     public function q1($input){
         //strrev — 反轉字符串
+        // return intval(strrev(strval($input)));
+        return $this->q1_function($input);
+    }
+
+    public function q1_function($input){
         return intval(strrev(strval($input)));
     }
 
